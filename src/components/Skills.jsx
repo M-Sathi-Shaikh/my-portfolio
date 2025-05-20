@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaNodeJs, FaGithub } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaNodeJs, FaGithub, FaBootstrap, FaBitbucket } from 'react-icons/fa'
 import { SiTailwindcss, SiVite } from 'react-icons/si'
 
 const skills = [
@@ -9,7 +9,9 @@ const skills = [
   { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-teal-400" /> },
   { name: 'Vite', icon: <SiVite className="text-purple-500" /> },
   { name: 'Node.js', icon: <FaNodeJs className="text-green-600" /> },
+  { name: 'Bootstrap', icon: <FaBootstrap className="text-blue-700 dark:text-white" /> },
   { name: 'GitHub', icon: <FaGithub className="text-gray-700 dark:text-white" /> },
+  { name: 'BitBucket', icon: <FaBitbucket className="text-gray-700 dark:text-white" /> },
 ]
 
 const Skills = () => {

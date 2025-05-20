@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp, FaPhone, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -38,17 +38,41 @@ const Contact = () => {
         </div>
 
         {/* Social Links */}
-        <div className="flex justify-center mt-4 space-x-6 text-xl">
-          <a href="https://github.com/M-Sathi-Shaikh" target="_blank" rel="noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-600">
-            <FaGithub />
-          </a>
-          <a href="https://www.linkedin.com/in/muhammad-sathi-shaikh-b495322a7/" target="_blank" rel="noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-600">
-            <FaLinkedin />
-          </a>
-          <a href="https://www.facebook.com/shaikh.sathi.33" target="_blank" rel="noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-600">
-            <FaFacebook />
-          </a>
-        </div>
+         <div className="flex justify-center flex-wrap gap-6">
+                <a
+                  href="https://github.com/M-Sathi-Shaikh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition text-3xl"
+                >
+                  <FaGithub />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/muhammad-sathi-shaikh-b495322a7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 transition text-3xl"
+                >
+                  <FaLinkedin />
+                </a>
+               
+                <a
+                  href="https://www.facebook.com/shaikh.sathi.33"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-700 hover:text-blue-900 transition text-3xl"
+                >
+                  <FaFacebook />
+                </a>
+                <a
+                  href="https://www.instagram.com/shaikh.sathi/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-pink-600 hover:text-pink-800 transition text-3xl"
+                >
+                  <FaInstagram />
+                </a>
+              </div>
       </div>
     </section>
   );
