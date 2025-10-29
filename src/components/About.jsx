@@ -8,7 +8,7 @@ const About = () => {
           </h2>
   
           <div className="flex flex-col md:flex-row items-center gap-8">
-            {/* ✅ Image visible on all screen sizes now */}
+            {/*  Image visible on all screen sizes now */}
             <img
               src={profile}
               alt="Profile"

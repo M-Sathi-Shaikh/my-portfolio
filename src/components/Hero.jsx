@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import heroImage from "../assets/heroImage.jpg";
+import heroImage from "../assets/heroImage.jpeg";
 
 const Hero = () => {
   const [ageString, setAgeString] = useState('');

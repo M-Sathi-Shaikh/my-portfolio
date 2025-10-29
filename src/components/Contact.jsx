@@ -21,7 +21,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/923141605658" // Replace with your number (92300... for Pakistan)
+            href="https://wa.me/923141605658"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition"
@@ -30,7 +30,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="tel:+923141605658" // Replace with your actual phone number
+            href="tel:+923141605658"
             className="inline-flex items-center gap-2 bg-gray-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition"
           >
             <FaPhone /> Call Me
