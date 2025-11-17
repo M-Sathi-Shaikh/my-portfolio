@@ -19,7 +19,7 @@ const projects = [
     title: "Space Explorer",
     description: "Explore daily NASA astronomy photos and data using their public API. Built with React and Tailwind.",
     image: spaceExplorer, // ✅ fixed
-    link: "https://your-space-explorer-site.com"
+    link: "https://space-explorer-eight-tawny.vercel.app/"
   }
 ];
 
